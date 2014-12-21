@@ -1,0 +1,1 @@
+<?php include_partial('auction/auction', array('auction' => $object, 'slim' => true)); ?>

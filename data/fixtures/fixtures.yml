@@ -1,0 +1,52 @@
+sfGuardUser:
+  admin:
+    username: admin
+    password: admin
+    first_name: Admin
+    last_name: Administrator
+    email_address:    psalajczyk+1@gmail.com
+    is_super_admin: true
+    Groups:         [Group_admin]
+
+sfGuardGroup:
+  Group_admin:
+    name:           admin
+    description:    Administrator group
+    Permissions:    [Permission_admin]
+
+sfGuardPermission:
+  Permission_admin:
+    name:           admin
+    description:    Administrator permission  
+
+Profile:
+  Profile1:
+    sfGuardUser: admin
+    uid: 23857h923854v9827547vg289v54
+    mobile: 00000
+    phone:  00000
+    street: ""
+    post_code: 00-00
+    city: ""
+    country: "Polska"
+    skype: ""
+    gg: ""
+
+Auction:
+<?php for($i = 0; $i < 50; $i++): ?>
+  Auction_<?php echo $i; ?>:
+    Translation:
+      pl:
+        name: Auction <?php echo $i; ?> 
+        description: To jest opis aukcji
+      en:
+        name: Auction en <?php echo $i; ?> 
+        description: To jest opis aukcji en
+      cn:
+        name: Auction cn <?php echo $i; ?> 
+        description: To jest opis aukcji cn        
+    sex: Samica
+    breeder: Jan Kowalski
+    expired_at: '2013-12-01 10:10:10'
+    movie: 'pul6arZaFvk'
+<?php endfor; ?>

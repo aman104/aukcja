@@ -1,0 +1,143 @@
+actAs: [Timestampable]
+options:
+  type: INNODB
+  collate: utf8_unicode_ci
+  charset: utf8  
+
+Profile:
+  columns:
+    sf_guard_user_id: {type: integer, notnull: true}
+    uid:            {type: string(255), notnull: false, unique: true}
+    phone:    		  {type: string(255), notnull: false}
+    mobile:     	  {type: string(255), notnull: false}
+    street:    		  {type: string(255), notnull: true}
+    post_code:  	  {type: string(255), notnull: true}
+    city:       	  {type: string(255), notnull: true}
+    country:           {type: string(255), notnull: true}
+    skype:    		  {type: string(255), notnull: false}
+    gg:         	  {type: string(255), notnull: false}
+    is_deleted:   {type: boolean, default: 0}
+  relations:
+    sfGuardUser:
+      type: one
+      foreignType: one
+      local: sf_guard_user_id
+      foreign: id
+      onDelete: CASCADE    
+
+Auction:
+  actAs:
+    Timestampable: ~
+    I18n:
+      fields: [name, description]
+      actAs:
+        Sluggable:
+          fields: [name]
+          unique: true
+          canUpdate: true
+          uniqueBy: [lang, name]
+          indexName:  auction_slug
+  columns:
+    name:    {type: string(255), notnull: true}
+    sex:     {type: string(255), notnull: true}
+    breeder: {type: string(255), notnull: true}
+    movie:   {type: string(255), notnull: false}
+    description:  {type: clob(65532), notnull: false}
+    price:     {type: integer, notnull: true, default: 50}
+    price_max: {type: integer, notnull: true, default: 50}
+    expired_at:   {type: timestamp, format: Y-m-d H:i:s, notnull: true }
+    start_date:   {type: timestamp, format: Y-m-d H:i:s, notnull: true }
+    is_end:    {type: boolean, default: 0}
+    is_active: {type: boolean, default: 1}
+  relations:
+    AuctionHistory:
+      type: many
+      local: id
+      foreign: auction_id
+    Pictures: 
+      class: Picture 	
+      type: many
+      local: id
+      foreign: auction_id 
+
+AuctionHistory:
+  columns:
+    profile_id: {type: integer, notnull: true}
+    auction_id: {type: integer, notnull: true}
+    price_actual: {type: integer, notnull: true}
+    price_max: {type: integer, notnull: true}
+    is_winner: {type: boolean, default: 0}
+    buying_order: {type: boolean, default: 0}
+  relations:
+    Profile:
+      type: one
+      local: profile_id
+      foreign: id
+      onDelete: CASCADE  
+    Auction:
+      type: one
+      local: auction_id
+      foreign: id
+      onDelete: CASCADE
+
+Picture:
+  columns:
+    auction_id: {type: integer, notnull: true}
+    file: {type: string(255), notnull: true}
+    is_default: {type: boolean, default: 0}
+    position: {type: integer, default: 0}
+  relations:
+    Auction:
+      type: one
+      local: auction_id
+      foreign: id
+      onDelete: CASCADE
+
+AuctionConfig:
+  columns:
+    name:   {type: string(255), notnull: true, unique: true }
+    value: {type: string(255), notnull: false }
+
+
+Sale:
+  actAs:
+    Timestampable: ~
+    I18n:
+      fields: [name, description]
+      actAs:
+        Sluggable:
+          fields: [name]
+          unique: true
+          canUpdate: true
+          uniqueBy: [lang, name]
+          indexName:  sale_slug
+  columns:
+    name:         {type: string(255), notnull: true}
+    description:  {type: clob(65532), notnull: false}
+    price:        {type: integer, notnull: true, default: 50}
+    is_active:    {type: boolean, default: 1}
+    mother:       {type: string(255), notnull: false }
+    father:       {type: string(255), notnull: false }
+    breeder:      {type: string(255), notnull: false }
+    owner:        {type: string(255), notnull: false }
+    movie:        {type: string(255), notnull: false}
+  relations:    
+    Pictures: 
+      class: SalePicture  
+      type: many
+      local: id
+      foreign: sale_id            
+
+SalePicture:
+  columns:
+    sale_id: {type: integer, notnull: true}
+    file: {type: string(255), notnull: true}
+    is_default: {type: boolean, default: 0}
+    position: {type: integer, default: 0}
+
+  relations:
+    Sale:
+      type: one
+      local: sale_id
+      foreign: id
+      onDelete: CASCADE  

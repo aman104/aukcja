@@ -1,0 +1,122 @@
+sale:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sale
+    module:               sale
+    prefix_path:          /sale
+    column:               id
+    with_wildcard_routes: true
+
+sale_picture_prev:
+  url: /sale_picture_prev/:id 
+  class: sfDoctrineRoute 
+  options: { model: SalePicture, type: object } 
+  param: { module: sale, action: setPrev } 
+  requirements: 
+    sf_method: [get, post]
+
+sale_picture_next:
+  url: /sale_picture_next/:id 
+  class: sfDoctrineRoute 
+  options: { model: SalePicture, type: object } 
+  param: { module: sale, action: setNext } 
+  requirements: 
+    sf_method: [get, post]
+
+sale_picture_delete:
+  url: /sale_picture_delete/:id 
+  class: sfDoctrineRoute 
+  options: { model: SalePicture, type: object } 
+  param: { module: sale, action: deletePicture } 
+  requirements: 
+    sf_method: [get, post]
+
+sale_picture_default:
+  url: /sale_picture_default/:id 
+  class: sfDoctrineRoute 
+  options: { model: SalePicture, type: object } 
+  param: { module: sale, action: defaultPicture } 
+  requirements: 
+    sf_method: [get, post]   
+
+
+
+
+auction_picture_prev:
+  url: /auction_picture_prev/:id 
+  class: sfDoctrineRoute 
+  options: { model: Picture, type: object } 
+  param: { module: auction, action: setPrev } 
+  requirements: 
+    sf_method: [get, post]
+
+auction_picture_next:
+  url: /auction_picture_next/:id 
+  class: sfDoctrineRoute 
+  options: { model: Picture, type: object } 
+  param: { module: auction, action: setNext } 
+  requirements: 
+    sf_method: [get, post]
+
+auction_picture_delete:
+  url: /auction_picture_delete/:id 
+  class: sfDoctrineRoute 
+  options: { model: Picture, type: object } 
+  param: { module: auction, action: deletePicture } 
+  requirements: 
+    sf_method: [get, post]
+
+auction_picture_default:
+  url: /auction_picture_default/:id 
+  class: sfDoctrineRoute 
+  options: { model: Picture, type: object } 
+  param: { module: auction, action: defaultPicture } 
+  requirements: 
+    sf_method: [get, post]    
+
+picture:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                picture
+    module:               picture
+    prefix_path:          /picture
+    column:               id
+    with_wildcard_routes: true
+
+auction:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Auction
+    module:               auction
+    prefix_path:          /auction
+    column:               id
+    with_wildcard_routes: true
+
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+sf_guard_password:
+  url:   /request_password
+  param: { module: sfGuardAuth, action: password }
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: sfAdminDash, action: dashboard }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="PL" target-language="cn" datatype="plaintext" original="messages" date="2011-05-25T10:25:29Z" product-name="messages">
+    <header/>
+		<body>
+			<trans-unit>			
+				<source>Kończące się aukcje</source>
+				<target>结束拍卖</target>			
+			</trans-unit>
+			<trans-unit>			
+				<source>Wszystkie aukcje</source>
+				<target>所有拍卖</target>			
+			</trans-unit>
+			<trans-unit>			
+				<source>Regulamin</source>
+				<target>法规</target>			
+			</trans-unit>
+			<trans-unit>			
+				<source>Moje dane</source>
+				<target>我</target>			
+			</trans-unit>
+			<trans-unit>			
+				<source>Moje licytacje</source>		
+				<target>我的拍卖</target>			
+			</trans-unit>
+			<trans-unit>		
+				<source>Rejestracja</source>			
+				<target>注册</target>
+			</trans-unit>
+			<trans-unit>		
+				<source>Zaloguj się</source>			
+				<target>登录</target>
+			</trans-unit>
+			<trans-unit>		
+				<source>wyloguj</source>
+				<target>注销</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Jesteś zalogowany jako</source>
+				<target>记录为</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Płeć</source>
+				<target>性别</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Hodowca</source>
+				<target>饲养员</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Aukcja zakończona</source>
+				<target>拍卖结束</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Data zakończenia</source>
+				<target>结束日期</target>
+			</trans-unit>
+			<trans-unit>
+				<source>dzień</source>
+				<target>日</target>
+			</trans-unit>
+			<trans-unit>
+				<source>dni</source>
+				<target>天</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Zwycięzca</source>
+				<target>胜利者</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Nikt nie licytował aukcji</source>
+				<target>没有人出价</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Aktualnie wygrywasz aukcje</source>
+				<target>目前，你赢了拍卖</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Twoja maksymalna cena</source>
+				<target>最高价格</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Maksymalna oferta</source>
+				<target>最高出价</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Oferuj</source>
+				<target>采购订单</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Licytuj</source>
+				<target>我要竞拍</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Musisz być zalogowany by móc licytować</source>
+				<target>您必须先登录才能投
+				</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Szczegóły</source>
+				<target>收起窗口</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Galeria</source>
+				<target>画廊</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Cena</source>
+				<target>价格</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Kraj</source>
+				<target>国家</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Data</source>
+				<target>出价截止时间</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Aktualnie brak historii</source>
+				<target>没有历史的招
+				</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Film</source>
+				<target>电影</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Pozostało</source>
+				<target>剩余时间</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Cena wywoławcza</source>
+				<target>要价</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Cena końcowa</source>
+				<target>最终价格</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Aktualna cena</source>
+				<target>时价</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Opis aukcji</source>
+				<target>拍卖鸽信息</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Historia licytacji</source>
+				<target>更多信息
+				</target>
+			</trans-unit>
+			<trans-unit>
+				<source>powrót do wszystkich aukcji</source>
+				<target>备份所有楼盘</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Zdjęcie</source>
+				<target>照片</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Nazwa</source>
+				<target>称</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Brak aukcji</source>
+				<target>没有拍卖</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Strona główna</source>
+				<target>家</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Aukcja</source>
+				<target>拍卖</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Profil</source>
+				<target>轮廓</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Ostatnie oferty</source>
+				<target>最新出价</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Brak aktualnych ofert</source>
+				<target>目前没有优惠</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Wszelkie prawa zastrzeżone</source>
+				<target>保留所有权利</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Aktualne licytacje</source>
+				<target>当前的拍卖</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Brak aktualnych licytacji</source>
+				<target>目前没有拍卖</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Wygrane aukcje</source>
+				<target>赢得拍卖</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Brak wygranych aukcji</source>
+				<target>缺乏获胜的拍卖</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Zmiana hasła</source>
+				<target>更改密码</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Edycja danych</source>
+				<target>编辑数据</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Zapisz</source>
+				<target>保存</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Telefon</source>
+				<target>电话</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Imię *</source>
+				<target>字 *</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Nazwisko *</source>
+				<target>姓 *</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Hasło *</source>
+				<target>密码 *</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Powtórz hasło *</source>
+				<target>重复密码*</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Ulica + nr domu *</source>
+				<target>街道*</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Kod pocztowy *</source>
+				<target>邮政编码 *</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Miasto *</source>
+				<target>城市 *</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Tel. komórkowy</source>
+				<target>流动</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Przepisz obrazek</source>
+				<target>重写图片</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Kraj *</source>
+				<target>国家*</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Nie masz konta? Zarejestruj się</source>
+				<target>你没有一个帐户 注册</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Nie pamiętasz hasła?</source>
+				<target>你可以不记得你的密码</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Zarejestruj się</source>
+				<target>注册</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Hasło</source>
+				<target>密码</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Przypomnienie hasła</source>
+				<target>密码提示</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Podaj swój adres email w celu przypomnienia hasła</source>
+				<target>请发邮件提醒密码</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Wyślij</source>
+				<target>发送</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Zmień hasło</source>
+				<target>更改密码</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Wprowadź nowe hasło</source>
+				<target>输入新密码</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Zmień</source>
+				<target>改变</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Samiec</source>
+				<target>男</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Samica</source>
+				<target>女</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Młody</source>
+				<target>年轻</target>
+			</trans-unit>
+			<trans-unit>
+		        <source>m.o</source>
+		        <target>b.o</target>
+		    </trans-unit>
+		    <trans-unit>
+				<source>Imię</source>
+				<target>字</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Nazwisko</source>
+				<target>姓</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Hasło</source>
+				<target>密码</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Powtórz hasło</source>
+				<target>重复密码</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Ulica + nr domu</source>
+				<target>街道</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Kod pocztowy</source>
+				<target>邮政编码</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Miasto</source>
+				<target>城市</target>
+			</trans-unit>
+			<trans-unit>
+				<source>Nowe hasło</source>
+				<target>新密码</target>
+			</trans-unit>
+	        <trans-unit>
+		        <source>Na pewno chcesz dodać ofertę do aukcji na</source>
+		        <target>你确定你要添加的报价拍卖</target>
+		    </trans-unit>
+		    <trans-unit>
+		        <source>Na pewno chcesz licytować aukcje na</source>
+		        <target>你确定你要出价在拍卖</target>
+		    </trans-unit>
+		    <trans-unit>
+		        <source>Zmień maksymalną ofertę</source>
+		        <target>更改的最大优惠</target>
+		    </trans-unit>
+
+		    <trans-unit>
+		        <source>Automatyczne odświeżanie</source>
+		        <target>动刷新</target>
+		    </trans-unit>
+		    <trans-unit>
+		        <source>Ostatnia aktualizacja: </source>
+		        <target>最后更新时间：</target>
+		    </trans-unit>
+		    <trans-unit>
+	          <source>Galeria</source>
+	          <target>画廊</target>
+	      	</trans-unit>
+	      	<trans-unit>
+	          <source>Archiwum</source>
+	          <target>档案</target>
+	      	</trans-unit>
+	      	<trans-unit>
+		          <source>Przegląd</source>
+		          <target>回顾</target>
+		      </trans-unit>
+              <trans-unit>
+		          <source>Formularz kontaktowy</source>
+		          <target>联系表</target>
+		      </trans-unit>
+		      <trans-unit>
+		          <source>Imię i nazwisko</source>
+		          <target>名</target>
+		      </trans-unit>
+		      <trans-unit>
+		          <source>Treść zapytania</source>
+		          <target>你的问题</target>
+		      </trans-unit>
+		      <trans-unit>
+		          <source>E-mail</source>
+		          <target>电子邮件</target>
+		      </trans-unit>
+		      <trans-unit>
+		          <source>Kontakt</source>
+		          <target>联系</target>
+		      </trans-unit>
+              <trans-unit>
+          		  <source>Sprzedaż</source>
+          		  <target>卖</target>
+      		  </trans-unit>
+	          <trans-unit>
+		          <source>Ojciec</source>
+		          <target>父亲</target>
+		      </trans-unit>
+		      <trans-unit>
+		          <source>Matka</source>
+		          <target>母亲</target>
+		      </trans-unit>
+		      <trans-unit>
+		          <source>Właściciel</source>
+		          <target>业主</target>
+		      </trans-unit>
+		      <trans-unit>
+		          <source>Kup teraz</source>
+		          <target>现在购买</target>
+		      </trans-unit>
+		      <trans-unit>
+		          <source>Kup</source>
+		          <target>购买</target>
+		      </trans-unit>
+			</body>
+		</file>
+	</xliff>

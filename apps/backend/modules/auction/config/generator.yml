@@ -1,0 +1,40 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Auction
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          auction
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+    css: nothing
+
+    config:
+      actions: ~
+      fields:  
+        name:    {label: Nazwa}
+        sex:     {label: Płeć}
+        breeder: {label: Hodowca}
+        movie:   {label: Film z YT}
+        description: {label: Opis aukcji}
+        price: {label: Cena aktualna}
+        price_max: {label: Cena maksymalna}
+        expired_at: {label: Zakończenie aukcji}
+        is_active: {label: Aktywny}
+        start_date: {label: Data rozpoczęcia}
+      list:    
+        title: Lista aukcji
+        display: [=id, =name, sex, breeder, _price, _price_max, expired_at, is_active] 
+        object_actions:
+          _edit: ~
+          copy: {label: Wystaw podobny}
+          _delete: ~
+      filter:  ~
+      form:    ~
+      edit:    
+        title: Edycja aukcji
+      new:     
+        title: Dodaj nową aukcje

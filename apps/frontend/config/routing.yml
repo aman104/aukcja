@@ -1,0 +1,133 @@
+sale:
+  url: /sale
+  param: { module: sale, action: index }
+
+sale_one:
+  url: /sale/:id/:slug
+  class:    sfDoctrineRoute
+  options:  { model: Sale, type: object }
+  param: { module: sale, action: sale }
+  requirements:
+    sf_method: [get, post]  
+
+contact:
+  url: /contact
+  param: { module: homepage, action: contact }
+
+overview:
+  url: /overview
+  param: { module: auction, action: overview }
+
+archive:
+  url: /archive
+  param: { module: auction, action: archive }
+
+archive_sale:
+  url: /archive-sale
+  param: { module: sale, action: archive }  
+
+
+update_last_auction:
+  url: /update-last-auctions
+  param: { module: auction, action: updateLast }
+
+update_auction:
+  url: /update-auction/:id
+  class:    sfDoctrineRoute
+  param: { module: auction, action: update } 
+  options:  { model: Auction, type: object }
+  requirements:
+    sf_method: [get, post]
+
+galleries:
+  url: /galleries
+  param: { module: auction, action: galleries } 
+  requirements: 
+    sf_method: [get, post]  
+
+check_auctions:
+  url: /check-auctions
+  param: { module: auction, action: check } 
+  requirements: 
+    sf_method: [get, post]  
+
+change_language:
+  url: /lang
+  param: { module: homepage, action: language } 
+  requirements: 
+    sf_method: [get, post]  
+
+sf_guard_forgot_password_change: 
+  url: /forgot_password/:unique_key 
+  class: sfDoctrineRoute 
+  options: { model: sfGuardForgotPassword, type: object } 
+  param: { module: sfGuardForgotPassword, action: change } 
+  requirements: 
+    sf_method: [get, post]
+
+sf_guard_forgot_password:
+  url: /przypominj-haslo
+  param: { module: sfGuardForgotPassword, action: index }
+
+sf_guard_signin: 
+  url: /logowanie
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout: 
+  url: /wylogowanie
+  param: { module: sfGuardAuth, action: signout }
+
+homepage:
+  url:   /
+  param: { module: homepage, action: index }
+
+regulamin:
+  url:   /regulamin
+  param: { module: homepage, action: regulamin }  
+
+login:
+  url: /logowanie
+  param: {module: sfGuardAuth, action: signin}
+
+logout:
+  url: /wylogowanie
+  param: { module: sfGuardAuth, action: signout }
+
+register:
+  url: /rejestracja
+  param: { module: sfGuardAuth, action: register }
+
+auctions:
+  url: /aukcje
+  param: { module: auction, action: index }
+
+auction:
+  url: /aukcja/:id/:slug
+  class:    sfDoctrineRoute
+  param:    { module: auction, action: auction }
+  options:  { model: Auction, type: object }
+  requirements:
+    sf_method: [get, post]
+
+activate:
+  url: /aktywacja/:uid
+  class:    sfDoctrineRoute
+  param:    { module: sfGuardAuth, action: activate }
+  options:  { model: Profile, type: object }
+
+profile:
+  url: /moje-dane
+  param: { module: profile, action: profile }
+
+my_auction:
+  url: /moje-licytacje
+  param: { module: profile, action: auction }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

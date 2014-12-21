@@ -1,0 +1,5 @@
+aukcja2.sql
+/cache/*
+/log/*
+/web/uploads/
+/config/databases.yml

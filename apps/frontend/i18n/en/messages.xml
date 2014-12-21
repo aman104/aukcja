@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="PL" target-language="en" datatype="plaintext" original="messages" date="2011-05-25T10:25:29Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit>
+        <source>Kończące się aukcje</source>
+        <target>Last auctions</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Wszystkie aukcje</source>
+        <target>All auctions</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Regulamin</source>
+        <target>Term of use</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Moje dane</source>
+        <target>Profile</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Moje licytacje</source>
+        <target>My auctions</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Rejestracja</source>
+        <target>Register</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Zaloguj się</source>
+        <target>Login</target>
+      </trans-unit>
+      <trans-unit>
+        <source>wyloguj</source>
+        <target>logout</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Jesteś zalogowany jako</source>
+        <target>Logged as</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Płeć</source>
+        <target>Sex</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Hodowca</source>
+        <target>Breeder</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Aukcja zakończona</source>
+        <target>Auction Closed</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Data zakończenia</source>
+        <target>Date of completion</target>
+      </trans-unit>
+      <trans-unit>
+        <source>dzień</source>
+        <target>day</target>
+      </trans-unit>
+      <trans-unit>
+        <source>dni</source>
+        <target>days</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Zwycięzca</source>
+        <target>Winner</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Nikt nie licytował aukcji</source>
+        <target>No one bid on auction</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Aktualnie wygrywasz aukcje</source>
+        <target>Currently you win auctions</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Twoja maksymalna cena</source>
+        <target>Your maximum price</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Maksymalna oferta</source>
+        <target>Buying order</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Oferuj</source>
+        <target>Offer</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Licytuj</source>
+        <target>Bid</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Musisz być zalogowany by móc licytować</source>
+        <target>You must be logged in to be able to bid</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Szczegóły</source>
+        <target>More</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Galeria</source>
+        <target>Gallery</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Cena</source>
+        <target>Price</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Kraj</source>
+        <target>Country</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Data</source>
+        <target>Date</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Aktualnie brak historii</source>
+        <target>Currently no history</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Film</source>
+        <target>Movie</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Pozostało</source>
+        <target>Time Left</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Cena wywoławcza</source>
+        <target>The asking price</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Cena końcowa</source>
+        <target>Final price</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Aktualna cena</source>
+        <target>Current price</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Opis aukcji</source>
+        <target>Description</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Historia licytacji</source>
+        <target>History</target>
+      </trans-unit>
+      <trans-unit>
+        <source>powrót do wszystkich aukcji</source>
+        <target>back to all auctions</target>
+      </trans-unit>     
+      <trans-unit>
+        <source>Zdjęcie</source>
+        <target>Image</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>Nazwa</source>
+        <target>Name</target>
+      </trans-unit> 
+      <trans-unit>
+        <source>Brak aukcji</source>
+        <target>No auctions</target>
+      </trans-unit> 
+      <trans-unit>
+        <source>Strona główna</source>
+        <target>Home</target>
+      </trans-unit>             
+      <trans-unit>
+        <source>Aukcja</source>
+        <target>Auction</target>
+      </trans-unit>             
+      <trans-unit>
+        <source>Profil</source>
+        <target>Profile</target>
+      </trans-unit>             
+      <trans-unit>
+        <source>Ostatnie oferty</source>
+        <target>Last auctions</target>
+      </trans-unit>             
+      <trans-unit>
+        <source>Brak aktualnych ofert</source>
+        <target>There are no current offers</target>
+      </trans-unit>             
+      <trans-unit>
+        <source>Wszelkie prawa zastrzeżone</source>
+        <target>All rights reserved</target>
+      </trans-unit>             
+      <trans-unit>
+        <source>Aktualne licytacje</source>
+        <target>Current auctions</target>
+      </trans-unit>             
+      <trans-unit>
+        <source>Brak aktualnych licytacji</source>
+        <target>No current auctions</target>
+      </trans-unit>             
+      <trans-unit>
+        <source>Wygrane aukcje</source>
+        <target>Win auctions</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>Brak wygranych aukcji</source>
+        <target>No wins auction</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>Zmiana hasła</source>
+        <target>Changing the password</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>Edycja danych</source>
+        <target>Editing data</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>Zapisz</source>
+        <target>Save</target>
+      </trans-unit>   
+      <trans-unit>
+        <source>Telefon</source>
+        <target>Phone</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Imię *</source>
+        <target>First name *</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Nazwisko *</source>
+        <target>Last name *</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Hasło *</source>
+        <target>Password *</target>
+      </trans-unit>                                  
+      <trans-unit>
+        <source>Powtórz hasło *</source>
+        <target>Password again *</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Ulica + nr domu *</source>
+        <target>Street *</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Kod pocztowy *</source>
+        <target>Post code *</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Miasto *</source>
+        <target>City *</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Tel. komórkowy</source>
+        <target>Mobile</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Przepisz obrazek</source>
+        <target>Image</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Kraj *</source>
+        <target>Country *</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Nie masz konta? Zarejestruj się</source>
+        <target>Do not have an account? Sign up</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Nie pamiętasz hasła?</source>
+        <target>Forgot your password?</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Zarejestruj się</source>
+        <target>Sign up</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Hasło</source>
+        <target>Password</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Przypomnienie hasła</source>
+        <target>Forgot Password?</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Podaj swój adres email w celu przypomnienia hasła</source>
+        <target>Enter your email address to remind the password</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Wyślij</source>
+        <target>Send</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Zmień hasło</source>
+        <target>Change password</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Wprowadź nowe hasło</source>
+        <target>Enter new password</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Zmień</source>
+        <target>Change</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Samiec</source>
+        <target>Cock</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Samica</source>
+        <target>Hen</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Młody</source>
+        <target>Young</target>
+      </trans-unit>
+      <trans-unit>
+        <source>m.o</source>
+        <target>b.o</target>
+      </trans-unit>
+      <trans-unit>
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit>
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit>
+        <source>Imię</source>
+        <target>First name</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Nazwisko</source>
+        <target>Last name</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Hasło</source>
+        <target>Password</target>
+      </trans-unit>                                  
+      <trans-unit>
+        <source>Powtórz hasło</source>
+        <target>Password again</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Ulica + nr domu</source>
+        <target>Street</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Kod pocztowy</source>
+        <target>Post code</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Miasto</source>
+        <target>City</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Nowe hasło</source>
+        <target>New password</target>
+      </trans-unit>
+      
+      <trans-unit>
+        <source>Na pewno chcesz dodać ofertę do aukcji na</source>
+        <target>Are you sure you want to add the offer to auction</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Na pewno chcesz licytować aukcje na</source>
+        <target>Are you sure you want to bid on auctions</target>
+      </trans-unit>
+      <trans-unit>
+          <source>Zmień maksymalną ofertę</source>
+          <target>Change the maximum offer</target>
+      </trans-unit>
+      
+      <trans-unit>
+          <source>Automatyczne odświeżanie</source>
+          <target>Automatic updates</target>
+      </trans-unit>
+      <trans-unit>
+          <source>Ostatnia aktualizacja: </source>
+          <target>Latest update: </target>
+      </trans-unit>
+      <trans-unit>
+          <source>Galeria</source>
+          <target>Gallery</target>
+      </trans-unit>
+      <trans-unit>
+          <source>Archiwum</source>
+          <target>Archives</target>
+      </trans-unit>
+      <trans-unit>
+          <source>Przegląd</source>
+          <target>Overview</target>
+      </trans-unit>
+
+      <trans-unit>
+          <source>Formularz kontaktowy</source>
+          <target>Contact form</target>
+      </trans-unit>
+      <trans-unit>
+          <source>Imię i nazwisko</source>
+          <target>Name</target>
+      </trans-unit>
+      <trans-unit>
+          <source>Treść zapytania</source>
+          <target>Query</target>
+      </trans-unit>
+      <trans-unit>
+          <source>Kontakt</source>
+          <target>Contact</target>
+      </trans-unit>
+      <trans-unit>
+          <source>Sprzedaż</source>
+          <target>Sale</target>
+      </trans-unit>
+      <trans-unit>
+          <source>Ojciec</source>
+          <target>Father</target>
+      </trans-unit>
+      <trans-unit>
+          <source>Matka</source>
+          <target>Mother</target>
+      </trans-unit>
+      <trans-unit>
+          <source>Właściciel</source>
+          <target>Owner</target>
+      </trans-unit>
+      <trans-unit>
+          <source>Kup teraz</source>
+          <target>Buy now</target>
+      </trans-unit>
+      <trans-unit>
+          <source>Kup</source>
+          <target>Buy</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

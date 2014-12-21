@@ -1,0 +1,31 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+#all:
+
+all:
+  sf_guard_plugin:
+    routes_register: false
+  sf_admin_dash:
+    web_dir:                      /sfAdminDashPlugin
+    image_dir:                    /sfAdminDashPlugin/images/icons/
+    default_image:                config.png
+    resize_mode:                  thumbnail
+    site:                         My Site
+    include_path:                 true
+    include_jquery_no_conflict:   false
+    logout:                       true
+    login_route:                  @sf_guard_signin
+    logout_route:                 @sf_guard_signout    
+  sf_admin_dash:
+    items:
+      Auction:
+        url:  auction      
+        name: Aukcje
+      Sale:
+        url:  sale      
+        name: Sprzedaż        
+      sfGuardUser:
+        url:  sf_guard_user
+        name: Użytkownicy

@@ -1,0 +1,1 @@
+<?php echo $sale->getPrice(); ?> EUR

@@ -1,0 +1,29 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Aukcje
+    description:  Aukcje
+    keywords:     Aukcje
+    language:     pl
+    robots:       index, follow
+
+  stylesheets:    
+    - bootstrap/bootstrap.min.css
+    - main.css
+    - jquery.lightbox-0.5.css
+
+  javascripts:    
+    - jQuery.js
+    - bootstrap/bootstrap.min.js
+    #- bootstrap/bootstrap-dropdown.js
+    - main.js
+    - kkcountdown.js
+    - jquery.lightbox-0.5.min.js
+
+  has_layout:     true
+  layout:         layout
