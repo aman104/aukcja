@@ -17,6 +17,10 @@ class ContacfForm extends sfForm
 		$this->widgetSchema['text'] = new sfWidgetFormTextarea();
         $this->validatorSchema['text'] = new sfValidatorString(array('max_length' => 255, 'required' => true));
         $this->widgetSchema['text']->setLabel('Treść zapytania');
+
+		$this->widgetSchema['captcha'] = new sfWidgetCaptchaGD();
+		$this->widgetSchema['captcha']->setLabel('Przepisz obrazek');
+		$this->validatorSchema['captcha'] = new sfCaptchaGDValidator(array('length' => 4));        
 	}
 
 	public function save()
